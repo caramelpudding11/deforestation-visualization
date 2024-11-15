@@ -173,10 +173,12 @@ navigation_options = [
     texts['dmg_ty']
 ]
 
-# Use query parameters to track the selected page
-nav_params = st.experimental_get_query_params()
+nav_params = st.query_params
+# print(nav_params)
+
 if "page" in nav_params:
-    selected_page = nav_params["page"][0]
+    selected_page = nav_params["page"]
+
 else:
     selected_page = texts['about']
 
