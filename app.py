@@ -8,7 +8,7 @@ import os
 import warnings  # Suppress warnings
 import streamlit.components.v1 as components
 from datetime import datetime
-from scraper_deter import scraper
+#from scraper_deter import scraper
 
 # scraper()
 
@@ -239,7 +239,7 @@ if selected_page == texts['about']:
 
 elif selected_page == texts['map']:
     radio_title = texts['vis_type']
-    options = texts['vis_options'].split(';')
+    options = texts['vis_options'].split(';') + ['New Map Option']
 
     seL_map = st.radio(radio_title, options=options,
                            horizontal=True, index=0)
@@ -272,6 +272,12 @@ elif selected_page == texts['map']:
         map_name = 'C_Units_' + current_lang.upper()
         with st.spinner(text="Loading..."):
             components.html(read_map(map_name), height=900)
+            
+    elif seL_map == 'New Map Option':  # New radio button functionality
+        map_name = 'States_' + current_lang.upper()  # Call the same function as 'States'
+        with st.spinner(text="Loading..."):
+            components.html(read_map(map_name), height=900)
+
     divider()
 
 elif selected_page == texts['alert_classes']:
