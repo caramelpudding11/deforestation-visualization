@@ -11,8 +11,8 @@
 
 3) EXECUTION - 
     1) Run scraper_deter.py
-    2) Run all cells of the notebook Maps_Deter.ipynb
-    3) Run all cells of the notebook Graphs_Deter.ipynb
+    2) Run all cells of the notebook Map_Generation.ipynb
+    3) Run all cells of the notebook Graph_Generation.ipynb
     4) Run the following command on terminal
             streamlit run app.py
 
