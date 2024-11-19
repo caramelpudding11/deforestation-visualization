@@ -147,7 +147,7 @@ selected_language = 'English'
 
 dict_classes, texts = get_texts(selected_language)
 
-# =======================      HEADER       ========================== #
+# =======================      HEADER      ========================== #
 
 def center_md(text):
     return "<h3 style='text-align: center;'>" + text + "</h3>"
@@ -170,7 +170,8 @@ navigation_options = [
     texts['states_statistics'],
     texts['cities_statistics'],
     texts['ucs_statistics'],
-    texts['dmg_ty']
+    texts['dmg_ty'],
+    texts['future_predictions']
 ]
 
 nav_params = st.query_params
@@ -239,7 +240,7 @@ if selected_page == texts['about']:
 
 elif selected_page == texts['map']:
     radio_title = texts['vis_type']
-    options = texts['vis_options'].split(';') + ['New Map Option']
+    options = texts['vis_options'].split(';') + ['Predicted Damaged Area']
 
     seL_map = st.radio(radio_title, options=options,
                            horizontal=True, index=0)
@@ -273,11 +274,22 @@ elif selected_page == texts['map']:
         with st.spinner(text="Loading..."):
             components.html(read_map(map_name), height=900)
             
-    elif seL_map == 'New Map Option':  # New radio button functionality
-        map_name = 'States_' + current_lang.upper()  # Call the same function as 'States'
-        with st.spinner(text="Loading..."):
-            components.html(read_map(map_name), height=900)
+    elif seL_map == 'Predicted Damaged Area':  # New radio button functionality
+    # Dropdown for selecting the month
+        selected_months = pd.DataFrame(['October 2024','November 2024','December 2024'])
+        selected_months_name = {'October 2024':10,'November 2024':11,'December 2024':12}
+        selected_year = 2024
+        ms_title = texts.get('vis_month', 'Select Month')  # Use appropriate text key from `texts` dictionary
+        selected_month = st.selectbox(ms_title, selected_months)
 
+        # Ensure a map is generated for the selected month
+        if selected_month:
+            with st.spinner(text=f"Loading visualization for month {selected_months}, please wait..."):
+                # map = states_map_pred_(selected_month, selected_year)  # Pass the selected month and year to the function
+                map_name = f'States_pred_{selected_months_name[selected_month]}_{selected_year}_EN'
+                components.html(read_map(map_name), height=900)  # Display the map
+
+# djks
     divider()
 
 elif selected_page == texts['alert_classes']:
@@ -292,7 +304,7 @@ elif selected_page == texts['alert_classes']:
         plot_graph('Graph1')
 
 
-    st.markdown(texts['graphs_12_desc'])
+    st.markdown(texts['graphs_1and2_desc'])
     divider()
 
 elif selected_page == texts['states_statistics']:
@@ -341,7 +353,16 @@ elif selected_page == texts['dmg_ty']:
     plot_graph('Graph7')
     st.markdown(texts['graph7_desc'], unsafe_allow_html=True)
     divider()
+    
+    st.markdown(center_md(texts['title_deter_graph10']), unsafe_allow_html=True)
+    plot_graph('Graph10')
+    st.markdown(texts['graph10_desc'], unsafe_allow_html=True)
 
+elif selected_page == texts['future_predictions']:
+    st.markdown(center_md(texts['title_deter_graph11']), unsafe_allow_html=True)
+    plot_graph('Graph11')
+    st.markdown(texts['graph11_desc'])
+    
 # =======================        FOOTER       ========================== #
 
 from PIL import Image

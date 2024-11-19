@@ -1,0 +1,112 @@
+Key§English§
+page_title§Analyzing Deforestation Impacts in the Amazon Rain Forest§
+date_format§%m-%d-%Y§%d/%m/%Y
+date_format2§%m-%Y§%m-%Y
+date_format3§MM/DD/YYYY§DD/MM/YYYY
+deter_expander_title§What is DETER?§
+deter_expander_desc_1§"### About the Project  
+
+The Brazilian Amazon Rainforest, a critical hub for global biodiversity and carbon sequestration, faces unprecedented threats from deforestation driven by agriculture, illegal logging, and infrastructure expansion. While current monitoring systems have made strides in tracking large-scale deforestation, they fall short in detecting smaller, localized changes and providing real-time insights.  
+
+Our project addresses these challenges by developing an integrated deforestation monitoring system that combines radar and optical satellite imagery with advanced machine learning models. By leveraging historical and real-time data, our solution provides near-instant updates, identifies deforestation hot spots, and predicts future risks.  
+
+Through intuitive visual tools and comprehensive trend analyses, we aim to empower policymakers and conservationists with actionable insights to implement more effective conservation strategies and mitigate the environmental impact of deforestation in the Amazon.
+"§"
+"
+deter_expander_desc_2§"
+By consistently monitoring and meticulously classifying changes in land use and forest cover, our project serves as a vital instrument in the effort to conserve the Amazon rainforest. It enables real-time detection of deforestation and environmental degradation, empowering authorities and policymakers with actionable insights. Through its advanced satellite monitoring capabilities, our project not only provides a comprehensive understanding of the scale and nature of forest loss but also facilitates targeted interventions to combat illegal logging, mining, and other destructive activities. This system is instrumental in guiding conservation strategies, supporting enforcement actions, and raising global awareness about the critical need to protect one of the Earth's most biodiverse ecosystems."§"
+"
+title_deter_graph1§Classes by Affected Area§
+about_deter_alerts§#### About DETER alerts between {} and {}§
+deter_metric1_label§Total Alerts:§Alertas Totais:
+title_deter_graph2§Alert Occurrences by Class§
+title_deter_graph3§Most Affected States by Damaged Area§
+title_deter_graph4§Most Affected Cities by Damaged Area§
+graph4_desc§"The chart highlights key municipalities in the Legal Amazon region that are most affected by deforestation, with a strong concentration in the states of Pará and Mato Grosso. São Félix do Xingu and Altamira in Pará stand out as the most heavily impacted, reflecting significant pressure on forested areas due to deforestation, fires, and other environmental disturbances.
+
+Other cities, such as Labrea in Amazonas and Porto Velho in Rondônia, also appear prominently, underscoring the widespread nature of deforestation across the region. Municipalities like Feliz Natal and Querência in Mato Grosso, along with Novo Progresso and Paragominas in Pará, further illustrate areas of intense environmental impact.
+
+This visualization emphasizes the urgency of implementing targeted conservation efforts and sustainable land management practices. Continuous monitoring and intervention are essential to combat deforestation, protect biodiversity, and ensure the ecological integrity of the Amazon.
+"
+title_deter_graph5§Damage per Month in the Legal Amazon (km²)§
+title_deter_graph6§Monthly Total Damage in the Legal Amazon: Analysis from {} to {}§
+labels_deter_graph6§['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']§['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
+title_deter_graph7§Trend Analysis: Annual Variations of Damages§
+title_deter_graph10§HeatMap of Deforestation by State and Year§
+title_deter_graph11§Yearly deforestation area§
+about§About Project§
+general§General Vision§
+alert_classes§Alert Classes§
+states_statistics§States§
+cities_statistics§Cities§
+ucs_statistics§Conservation Units§
+dmg_ty§Damage Through Years§
+future_predictions§ Deforestation Prediction§
+map§Map View§
+graph3_desc§"- **Mato Grosso and Pará** lead in terms of affected area, with 75,043 km² and 64,342 km² respectively. This highlights the intensity of deforestation and degradation in these states, possibly due to agricultural activities, logging, and mining.
+- **Amazonas, Rondônia, and Maranhão** also show significant affected areas, reflecting the extent of the deforestation problem in the region.
+- **Roraima, Acre, Tocantins, and Amapá** display smaller affected areas but still face significant challenges in terms of conservation and sustainable resource management."§"
+"
+
+graph10_desc§" The heatmap provides a detailed visualization of deforestation trends across the Brazilian Amazon from 2016 to 2024, highlighting the varying intensity of forest loss among different states. The data reveals significant regional disparities, with certain states consistently exhibiting high levels of deforestation while others remain relatively unaffected. 
+
+The years 2020 and 2024 stand out as periods of heightened deforestation, with sharp increases in affected areas. These spikes likely correspond to policy shifts, economic pressures, or changes in enforcement measures. Conversely, the earlier years, particularly 2016 to 2018, generally show lower deforestation rates, reflecting potentially stronger conservation efforts or reduced human activity during that time.
+
+The heatmap also underscores emerging threats in regions that have historically seen lower levels of deforestation. While some areas maintain relatively stable trends, others display concerning increases, signaling growing pressures from activities such as agriculture, logging, and infrastructure development.
+
+This visualization effectively highlights temporal and regional trends, providing a valuable resource for understanding the dynamics of deforestation and supporting efforts to mitigate its impact.
+"
+graph11_desc§" This graph illustrates the predicted annual deforestation area in the Brazilian Amazon from 2016 to 2024, showcasing historical data alongside a forecast for 2024. The trend reveals periods of fluctuation, with a concerning prediction for 2024 showing deforestation soaring to 57,827 km², more than double the area recorded in 2023. This dramatic increase underscores the urgency for proactive conservation strategies to counteract deforestation drivers, such as agricultural expansion and illegal logging. The prediction emphasizes the need for data-driven interventions and strengthened policies to protect the Amazon’s critical biodiversity and ecological balance.
+"
+graphs_1and2_desc§" The chart provides a detailed look at the various factors driving deforestation in the Brazilian Amazon, each contributing uniquely to the ongoing environmental changes.
+
+**Forest Fire Scar (56.3%)**: Fire-damaged areas dominate the alerts, marking the aftermath of both natural and human-induced fires. These scars signify the largest threat to the forest, causing widespread destruction and severely disrupting ecosystems.
+
+**Deforestation with Exposed Soil (22.4%)**: Large-scale clearance of forest cover for activities like agriculture and development leaves soil exposed, accelerating erosion, altering local climates, and releasing stored carbon into the atmosphere.
+
+**Degradation (9.2%)**: Areas classified as degraded represent forests that are partially damaged rather than entirely cleared. Often caused by unsustainable practices, this middle stage of deforestation disrupts ecosystems and opens pathways to further loss.
+
+**Selective Logging Type 1 (6.1%)**: This logging activity, characterized by its irregular patterns, removes specific trees but leaves the surrounding vegetation intact. Though less extensive, it fragments forests and reduces biodiversity.
+
+**Selective Logging Type 2 (4.8%)**: Geometric and organized logging practices focus on precision but still disrupt ecosystems by creating pathways for further exploitation and loss of forest cover.
+
+**Deforestation with Vegetation (0.9%)**: Representing areas where patches of vegetation persist amidst cleared land, this category indicates either partial forest clearance or areas in transition toward full deforestation.
+
+**Mining (0.3%)**: Although the smallest contributor, mining has an outsized impact on the environment. It irreversibly damages ecosystems, pollutes water sources, and disrupts local communities."§""
+graph8_title§Regional Analysis of Impact Distribution by Alert Class in the Legal Amazon§
+graph8_desc§"The **Forest Fire Scar** class emerges as the most dominant in terms of affected area across nearly all states in the Legal Amazon, underscoring the widespread prevalence and severity of forest fires in the region. Among the states, Mato Grosso and Pará report the largest areas impacted by fires, highlighting their heightened vulnerability to these destructive events. These fires not only devastate vast tracts of forest but also pose significant ecological and climatic challenges, further emphasizing the urgency of fire prevention and mitigation strategies.
+
+The **Deforestation with Exposed Soil** class also accounts for a substantial portion of the affected areas, with Pará showing the largest impact. This category reflects areas where vegetation has been entirely removed, leaving the soil bare and exposed. Such intensive deforestation activities signal large-scale land-clearing operations, often associated with agricultural expansion, infrastructure development, or illegal logging. The environmental consequences of exposed soil include increased erosion, disruption of ecosystems, and diminished land fertility, making this class a critical concern for conservation efforts.
+
+In contrast, **Selective Logging (Type 1: Disordered, and Type 2: Geometric)** display a more varied distribution across states. Mato Grosso leads in this category, suggesting that specific logging practices or forest management activities are prevalent in the state. Selective logging, while less destructive than total deforestation, can still significantly alter forest ecosystems, disrupt biodiversity, and pave the way for further land degradation if not managed sustainably.
+
+**Degradation**, which refers to partial forest loss or reduced vegetation density, is evident across all states, though its affected areas are relatively smaller compared to forest fires or deforestation. This suggests that degradation is a widespread but less extensive phenomenon, often resulting from activities such as selective logging or illegal timber extraction. Although the scale may be smaller, the cumulative impact of degradation on ecosystems and carbon storage capacity is substantial and warrants attention.
+
+**Mining**, while accounting for the smallest affected area among the classes, is particularly notable in states like Pará. The presence of mining activities, even on a smaller scale, highlights the diverse pressures exerted on the Legal Amazon’s land resources. Mining activities often lead to localized but severe environmental impacts, including deforestation, pollution of water sources, and habitat destruction. These effects, combined with other forms of land pressure, create a complex challenge for sustainable land management in the region.
+
+This analysis underscores the multifaceted nature of deforestation and land degradation in the Legal Amazon. Each class of impact, from forest fires to mining, contributes uniquely to the region's environmental challenges, highlighting the need for tailored conservation strategies that address the specific drivers and consequences of land-use change in each state"§""
+graph5_desc§"The line chart above depicts monthly deforestation and disturbance trends in the Legal Amazon from 2016 to 2024, based on data collected and analyzed by our project. Each point represents the total deforested area in square kilometers for a given month, with markers highlighting the months of highest impact within each year, drawing attention to periods of intensified environmental stress.
+
+This visualization provides a temporal perspective on deforestation trends, with the observed peaks often aligning with the dry season or periods of increased land-use activity. The chart reflects how deforestation patterns have evolved over time, shaped by factors such as policy changes, enforcement measures, and economic drivers.
+
+By aggregating data on a monthly basis, the chart identifies specific times of the year that consistently experience higher deforestation rates, allowing for more targeted and timely conservation efforts. This analysis highlights the importance of continuous monitoring and data-driven strategies to mitigate the impact of deforestation. By offering valuable insights into deforestation dynamics, this chart serves as a critical tool for policymakers, conservationists, and researchers dedicated to preserving the Amazon rainforest's biodiversity and ecological health."§"
+"
+graph6_desc§"This bar chart depicts the total monthly damage in the Legal Amazon, combining data from all complete years in the dataset. It highlights a clear seasonal trend in deforestation and degradation, with noticeable fluctuations throughout the year.
+
+The data reveal a steady rise in affected areas from January through December, culminating in a pronounced peak during July, August, and September. This period coincides with the Amazon's dry season, a time when the risk of fires escalates, and land-clearing activities for agriculture or illegal logging become more prevalent due to reduced moisture levels.
+
+In October, the chart shows a sharp decline in damage, although the impacted area remains substantial at 24,590 km². This indicates that, while the peak deforestation season has passed, significant activity persists into the later months. November and December exhibit a marked decrease in deforestation and degradation, aligning with the onset of the rainy season, which typically discourages activities such as burning and land clearing.
+
+These seasonal patterns highlight the importance of targeted interventions during the dry season to address the highest levels of deforestation and degradation. Recognizing these trends is essential for policymakers, environmental organizations, and conservationists to develop and implement effective strategies for safeguarding the Amazon rainforest."§""
+graph7_desc§This visualization offers an in-depth annual analysis of changes in the damaged areas within the Legal Amazon, focusing solely on complete years from the dataset. This ensures the data is both comprehensive and reflective of the full impact for each year, enabling precise year-over-year comparisons. Each bar represents the total area affected in a specific year, while arrows dynamically illustrate changes between years. Green arrows indicate reductions in damaged areas, suggesting periods of recovery or successful conservation efforts, while red arrows highlight increases, signaling intensified deforestation activities.</br></br>The analysis begins in 2017, establishing a baseline for subsequent comparisons. The data reveal a pattern of fluctuations, reflecting the ongoing struggle to mitigate deforestation in the region. A reduction in 2018 may point to the success of conservation strategies or favorable environmental conditions. However, this was followed by a significant rise in 2019, peaking notably in 2020. A sharp decline in 2021 was later followed by another increase in 2022, emphasizing the persistent challenges of managing deforestation. The trend for 2023 shows a decline in affected areas, possibly influenced by various factors such as strengthened policies, stricter enforcement, economic shifts, or natural environmental conditions.</br></br>This chronological progression highlights the complexity of the issue, underscoring the need for adaptive, innovative, and robust strategies to preserve and manage this vital ecosystem effectively.§
+graph9_title§Most Affected Conservation Units by Damaged Area§
+graph9_desc§"Conservation Units (UCs) are natural areas granted legal protection to ensure the preservation of biodiversity, safeguard endangered species, and sustain essential ecosystems. These areas are critical for maintaining ecological balance, supporting climate change mitigation efforts, and promoting sustainable development practices. UCs also play a pivotal role in preserving water resources, protecting natural landscapes, and fostering a harmonious relationship between human activity and the environment. By serving as vital reservoirs of biodiversity and ecosystem services, UCs contribute significantly to the global fight against environmental degradation.
+
+The chart illustrates the 25 most deforestation- and degradation-impacted UCs within the Legal Amazon, highlighting the environmental challenges faced by these protected regions. The ranking is based on the area affected, measured in square kilometers, and underscores the pressure from human activities on these conservation hotspots. The list includes a variety of protected areas, such as National Forests, Extractive Reserves, and National Parks. Leading the chart is the Jamanxim National Forest, with an impacted area of 1,040 km², reflecting the intense environmental stress it endures. Other notable areas include the Chico Mendes Extractive Reserve and the Araguaia National Park, each illustrating the unique vulnerabilities and threats to different types of conservation units."§As Unidades de Conservação (UCs) são áreas naturais legalmente protegidas designadas para preservar a biodiversidade, proteger espécies em perigo, manter e restaurar ecossistemas essenciais e promover o desenvolvimento sustentável. Elas desempenham um papel crucial na mitigação das mudanças climáticas, na manutenção dos recursos hídricos e na preservação das paisagens naturais. O gráfico destaca as 25 UCs na Amazônia Legal mais afetadas pelo desmatamento e degradação, medido pela área impactada em quilômetros quadrados, mostrando as pressões ambientais que estas áreas protegidas enfrentam. As UCs variam desde Florestas Nacionais, como a Floresta Nacional do Jamanxim, liderando com uma área impactada de 1.040 km², até Reservas Extrativistas, como a Reserva Extrativista Chico Mendes, e Parques Nacionais, como o Parque Nacional do Araguaia.
+classes_graphs_title§Impact Analysis of Alert Classes in the Amazon Deforestation§Análise do Impacto das Classes de Alerta no Desmatamento da Amazônia
+total_dmg§Total Damaged Area:§
+vis_type§Choose Visualization Type:§
+vis_options§None;States;Cities;Conservation Units§
+vis_state§Choose the state you want to visualize on the map:§
+git§Github repository§
+inpe_ref§"NATIONAL INSTITUTE FOR SPACE RESEARCH. GENERAL COORDINATION FOR EARTH OBSERVATION. AMAZON AND OTHER BIOMES MONITORING PROGRAM. Notices – Legal Amazon – Available at: <a href=""https://terrabrasilis.dpi.inpe.br/downloads/"">TerraBrasilis</a>. Accessed on: July 10, 2024."§""
