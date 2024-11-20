@@ -64,3 +64,4 @@ def scraper():
     finally:
         driver.quit()
 
+scraper()

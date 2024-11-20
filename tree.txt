@@ -1,0 +1,26 @@
+.
+├── app.py
+├── data
+├── Images
+├── Notebooks
+│   ├── data2
+│   ├── data2.zip
+│   ├── future_preds.csv
+│   ├── Graph_Generation.ipynb
+│   ├── Map_Generation.ipynb
+│   ├── merged_predictions.csv
+│   ├── merged_predictions_with_future.csv
+│   ├── prediction.ipynb
+│   ├── requirements.txt
+│   ├── scraper_deter.py
+│   └── scraper.ipynb
+├── README.md
+├── requirements.txt
+├── texts
+├── tree.txt
+└── Visualizations
+    └── DETER
+        ├── Graphs
+        └── Maps
+
+25 directories, 238 files
