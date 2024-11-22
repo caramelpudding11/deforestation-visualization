@@ -2,21 +2,13 @@
 
 import streamlit as st
 import pandas as pd
-import zipfile
-import gdown
 import os
 import warnings  # Suppress warnings
 import streamlit.components.v1 as components
-from datetime import datetime
-#from scraper_deter import scraper
-
-# scraper()
-
-
 
 # Set environment variable to suppress Streamlit warnings
-warnings.filterwarnings("ignore")  # Suppress all Python warnings
-# OOh lalalalalal
+warnings.filterwarnings("ignore")  
+
 # =======================    PAGE CONFIG    ========================== #
 icon = "🌳"
 
@@ -289,7 +281,6 @@ elif selected_page == texts['map']:
                 map_name = f'States_pred_{selected_months_name[selected_month]}_{selected_year}_EN'
                 components.html(read_map(map_name), height=900)  # Display the map
 
-# djks
     divider()
 
 elif selected_page == texts['alert_classes']:
@@ -361,7 +352,9 @@ elif selected_page == texts['dmg_ty']:
 elif selected_page == texts['future_predictions']:
     st.markdown(center_md(texts['title_deter_graph11']), unsafe_allow_html=True)
     plot_graph('Graph11')
-    st.markdown(texts['graph11_desc'])
+    # st.markdown(texts['graph11_desc'])
+    # plot_graph('Graph12')
+    st.markdown('The above graph shows the prediction across all states for the coming months of 2024 starting from October. The metric considered for prediction is AREAMUNKM (in km^2). This graph illustrates the predicted annual deforestation area in the Brazilian Amazon from 2016 to 2024, showcasing historical data alongside a forecast for 2024. The trend reveals periods of fluctuation, with a concerning prediction for 2024 showing deforestation soaring to more than double the area recorded in 2023. This dramatic increase underscores the urgency for proactive conservation strategies to counteract deforestation drivers, such as agricultural expansion and illegal logging. The prediction emphasizes the need for data-driven interventions and strengthened policies to protect the Amazon’s critical biodiversity and ecological balance.')
     
 # =======================        FOOTER       ========================== #
 
