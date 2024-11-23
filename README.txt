@@ -20,7 +20,7 @@
     4) Run the following command on terminal
             streamlit run app.py
 
-4) DEMO VIDEO - 
+4) DEMO VIDEO - https://youtu.be/Oxth9B_I--w
 5) FOLDER TREE 
     .
     ├── app.py
